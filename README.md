@@ -10,6 +10,7 @@ Una variable es un sitio donde guardamos una determinada información. En funci�
 
 ## Nombrando una variable
 
+```python
 Mari_a = 15
 Maria3 = 15
 Maria = 15
@@ -21,14 +22,16 @@ No valido
 3Maria = 15
 Ma ria = 15
 Mar-ia = 15
+```
 
 ## Asignando valores a una variable
 
 Las variables en Python se crean cuando se definen por primera vez, es decir, cuando se les asigna un valor por primera vez. Para asignar un valor a una variable se utiliza el operador de igualdad (=). A la izquierda de la igualdad se escribe el nombre de la variable y a la derecha el valor que se quiere dar a la variable.
-
+```python
 x = 2.5 
 
 Si una variable no se ha definido anteriormente, al escribir su nombre generara un mensaje de error.
+```
 
 ## Operadores básicos
 
@@ -37,7 +40,7 @@ Existen cinco operadores basicos  tales como suma + , resta - ,multiplicacion * 
 ### Suma
 
 El operador  suma + los valores de tipo de datos numéricos.
-
+```python
 num1 = 10
 num2 = 15
 
@@ -45,11 +48,12 @@ sum= num1 + num2
 print("sum")
 
 respuesta: 25
+```
 
 ### Resta
 
 El operador resta -  los valores de tipo de datos numéricos.
-
+```python
 num1 = 20
 num2 = 5
 
@@ -57,11 +61,11 @@ rest= num1 - num2
 print("rest")
 
 respuesta: 15
-
+```
 ### Multiplicación
 
 El operador  multiplica * los valores de tipo de datos numéricos.
-
+```python
 num1 = 4
 num2 = 5
 
@@ -69,11 +73,11 @@ mult= num1 - num2
 print("multi")
 
 respuesta: 20
-
+```
 ### División
 
 El operador división / el resultado que se devuelve es un número real.
-
+```python
 num1 = 36
 num2 = 4
 
@@ -81,11 +85,11 @@ div= num1 / num2
 print("div")
 
 respuesta: 9
-
+```
 ### Módulo
 
 El operador módulo % no hace otra cosa que devolver el resto de la división entre los dos operandos.
-
+``` python
 num1 = 7
 num2 = 2
 
@@ -93,7 +97,7 @@ mod= num1 % num2
 print("mod")
 
 respuesta: 1
-
+```
 # Tipos de datos en Python
 
 ## Integer

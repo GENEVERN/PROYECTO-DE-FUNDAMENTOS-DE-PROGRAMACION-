@@ -127,7 +127,7 @@ print(type(s))
 ```
 También es valido declarar las cadenas con comillas simples simples '.
 ``` python
-s = 'Cadena de Maria
+s = 'Cadena de Maria'
 print(s)        
 print(type(s))  
 ```
@@ -135,18 +135,91 @@ print(type(s))
 
 Hacer un casting significa convertir un tipo de dato a otro. 
 Existen dos tipos de conversiones : conversión implícita y conversión explícita.
+
+Conversión implícita: Esta conversión de tipos es realizada automáticamente por Python.
 ``` python
-Conversión implícita
+a = 1   # <class 'int'>
+b = 2.3 # <class 'float'>
+
+a = a + b
+print(a)       # 3.3
+print(type(a)) # <class 'float'>
+```
+
+
+conversión explícita: Podemos hacer conversiones entre tipos o cast de manera explícita haciendo uso de diferentes funciones que nos proporciona Python. Las más usadas son las siguientes: float(), str(), int(), list(), set()
+
 ## List
 
+Las listas en Python permiten almacenar un conjunto arbitrario de datos como enteros, cadenas y hasta otras funciones.
+``` python
+lista = [1,52,maria,2,13]
+print(lista)
+
+Resultado [1,52,maria,2,13]
+``` 
 ## Tuple
+Las tuplas es un conjunto ordenado en secuencia e inmutable de elementos del mismo o diferente tipo.
 
+``` python
+tupla = (1, 2, 3)
+print(tupla) #(1, 2, 3)
+``` 
+``` python
+También pueden declararse sin (), separando por , todos sus elementos.
+tupla = 1, 2, 3
+print(type(tupla)) #<class 'tuple'>
+print(tupla)       #(1, 2, 3)
+
+Resutado : 1
+           2
+           3
+``` 
+
+Una tupla puede no contener ningún elemento, es decir, ser una tupla vacía.
+``` python
+()
+>>> len(())
+0
+``` 
 ## Dictionary
+Un Diccionario es una estructura de datos y un tipo de dato en Python con características especiales que nos permite almacenar cualquier tipo de valor como enteros, cadenas, listas e incluso otras funciones , el cual esta divido en pares llave y valor.
+Los diccionarios se pueden crear con paréntesis {} separando con una coma cada par key: value.
+``` python
+d1 = dict([
+      ('Nombre', 'Genesis'),
+      ('Edad', 18),
+      ('Documento', 0968694729),
+])
+print(d2)
+#{'Nombre': 'Maria', 'Edad': '18', 'Documento': '0968694729'}
 
+``` 
 # Tomando decisiones
 
 ## Sentencia if
+La sentencia if se utiliza para ejecutar un bloque de código si, y solo si, se cumple una determinada condición. Por tanto, if es usado para la toma de decisiones.
+``` python
+if condición:"aquí van las órdenes que se ejecutan si la condición es cierta y que pueden ocupar varias líneas"
+La condición se evalúa siempre y cuando:
+-Si el resultado es True se ejecuta el bloque de sentencias
+-Si el resultado es False no se ejecuta el bloque de sentencias.
+```
+``` python
+a = 5
+if a < 5:
+    print('a es menor que 5')
+ ```
+ 
+## Sentencia elif
+Esta sentencia contiene el código a ejecutar en caso de que no se cumpla la condición de la sentencia if.
+ a= 5
+ if a > 10:
+   print('a es mayor que 10')
+ else:
+  print('a es menor o igual que 10')
 
+ a es menor o igual que 10
 ## Ciclo For
 
 ## Ciclo While

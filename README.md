@@ -69,8 +69,8 @@ El operador  multiplica * los valores de tipo de datos numéricos.
 num1 = 4
 num2 = 5
 
-mult= num1 - num2 
-print("multi")
+multi= num1 * num2 
+print("respuesta" , multi)
 
 respuesta: 20
 ```

@@ -45,7 +45,7 @@ num1 = 10
 num2 = 15
 
 sum= num1 + num2 
-print("sum")
+print("resultado" , sum)
 
 respuesta: 25
 ```
@@ -58,7 +58,7 @@ num1 = 20
 num2 = 5
 
 rest= num1 - num2 
-print("rest")
+print("resultado:" , rest)
 
 respuesta: 15
 ```
@@ -70,7 +70,7 @@ num1 = 4
 num2 = 5
 
 multi= num1 * num2 
-print("respuesta" , multi)
+print("respuesta:" , multi)
 
 respuesta: 20
 ```
@@ -82,7 +82,7 @@ num1 = 36
 num2 = 4
 
 div= num1 / num2 
-print("div")
+print("resultado:", div)
 
 respuesta: 9
 ```
@@ -94,7 +94,7 @@ num1 = 7
 num2 = 2
 
 mod= num1 % num2 
-print("mod")
+print("resultado:", mod)
 
 respuesta: 1
 ```

@@ -213,6 +213,7 @@ if a < 5:
  
 ## Sentencia elif
 Esta sentencia contiene el código a ejecutar en caso de que no se cumpla la condición de la sentencia if.
+``` python
  a= 5
  if a > 10:
    print('a es mayor que 10')
@@ -220,10 +221,69 @@ Esta sentencia contiene el código a ejecutar en caso de que no se cumpla la con
   print('a es menor o igual que 10')
 
  a es menor o igual que 10
+ ```
 ## Ciclo For
 
+El bucle for es una iteración que recorre los elementos de una secuencia ordenada como listas, diccionarios, tuplas, cadenas, etc.
+``` python
+La sintaxis del bucle for en Python es tal que así:
+for var in sequence:
+    statement(s)
+ ```
+ La estructura del bucle for es simple. La primera línea identifica el bucle y define un índice, que es un número que cambia en cada paso a través del bucle. Después de la línea de identificación viene el grupo de comandos que se quiere ejecutar de forma IDENTADA.
+ ``` python
+ grupos = [Exo, Got7, twice, NCT]
+for a in grupos:
+    print(a)
+  ```
 ## Ciclo While
+La sentencia o bucle while en Python es una sentencia de control de flujo que se utiliza para ejecutar un bloque de instrucciones de forma continuada mientras se cumpla una condición determinada.
+``` python
+La sintaxis del bucle while es la siguiente:
 
+while condicion:
+    cuerpo del bucle
+ ```   
+La ejecución de esta estructura de control while es la siguiente:
+``` python
+Python evalúa la condición:
+-si el resultado es True se ejecuta el cuerpo del bucle. Una vez ejecutado el cuerpo del bucle, se repite el proceso 
+(se evalúa de nuevo la condición y, si es cierta, se ejecuta de nuevo el cuerpo del bucle) una y otra vez mientras la condición sea cierta.
+
+-si el resultado es False, el cuerpo del bucle no se ejecuta y continúa la ejecución del resto del programa.
+```
+``` python
+while numero <= 10:
+    suma = numero + suma
+    numero = numero + 1
+print ("La suma es " + str(suma))
+```
 ## Break
+La instrucción break  proporciona la oportunidad de cerrar un bucle cuando se activa una condición externa. Debemos poner la instrucción break dentro del bloque de código bajo la instrucción de su bucle, generalmente después de una instrucción if condicional.
+``` python
+number = 0
+
+for number in range(10):
+    if number == 5:
+        break    # break here
+
+    print('Number is ' + str(number))
+
+print('Out of loop')
+```
 
 ## Continue
+La instrucción continue da la opción de omitir la parte de un bucle en la que se activa una condición externa, pero continuar para completar el resto del bucle. Es decir, la iteración actual del bucle se interrumpirá, pero el programa volverá a la parte superior del bucle.
+
+La instrucción continue se encuentra dentro del bloque de código abajo de la instrucción del bucle, generalmente después de una instrucción if condicional.
+``` python
+number = 0
+
+for number in range(10):
+    if number == 5:
+        continue    # continue here
+
+    print('Number is ' + str(number))
+
+print('Out of loop')
+```

@@ -1,10 +1,10 @@
 # PROYECTO-DE-FUNDAMENTOS-DE-PROGRAMACION-
 
-# Qué es Python?
+# ¿Qué es Python? 
 
 Python es un lenguaje de programación de alto nivel que se utiliza para desarrollar aplicaciones de todo tipo. A diferencia de otros lenguajes como Java o .NET, se trata de un lenguaje interpretado, es decir, que no es necesario compilarlo para ejecutar las aplicaciones escritas en Python, sino que se ejecutan directamente por el ordenador utilizando un programa denominado interpretador, por lo que no es necesario “traducirlo” a lenguaje máquina
 
-# Qué es una variable?
+# ¿Qué es una variable?
 
 Una variable es un sitio donde guardamos una determinada información. En función del tipo de información que guardemos (texto, números, booleanas, etc.), la variable será de uno u otro tipo.
 

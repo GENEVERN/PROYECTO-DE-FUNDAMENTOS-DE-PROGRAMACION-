@@ -99,15 +99,44 @@ print("mod")
 respuesta: 1
 ```
 # Tipos de datos en Python
+A continuacion tenemos los siguientes tipos de datos dentro de Python
 
 ## Integer
+Son un tipo de datos que permite representar números enteros, pueden ser numeros positivos y negativos pero no decimales.
+``` python
+a = 5  
+b = 100  
+c = - 3
+``` 
 
 ## Float
 
+El tipo numérico float permite representar un número positivo o negativo con decimales, es decir, números reales.
+``` python
+a = 3.89  
+b = -6.1  
+c = 10.6
+``` 
 ## String
 
+Las cadenas en Python o strings son un tipo inmutable que permite almacenar secuencias de caracteres. Para crear una, es necesario incluir el texto entre comillas dobles ". 
+``` python
+s =  "Cadena de Maria"
+print(s)       
+print(type(s)) 
+```
+También es valido declarar las cadenas con comillas simples simples '.
+``` python
+s = 'Cadena de Maria
+print(s)        
+print(type(s))  
+```
 ## Casting en Python
 
+Hacer un casting significa convertir un tipo de dato a otro. 
+Existen dos tipos de conversiones : conversión implícita y conversión explícita.
+``` python
+Conversión implícita
 ## List
 
 ## Tuple

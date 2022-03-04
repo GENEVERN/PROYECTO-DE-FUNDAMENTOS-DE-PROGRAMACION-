@@ -186,13 +186,12 @@ Una tupla puede no contener ningún elemento, es decir, ser una tupla vacía.
 Un Diccionario es una estructura de datos y un tipo de dato en Python con características especiales que nos permite almacenar cualquier tipo de valor como enteros, cadenas, listas e incluso otras funciones , el cual esta divido en pares llave y valor.
 Los diccionarios se pueden crear con paréntesis {} separando con una coma cada par key: value.
 ``` python
-d1 = dict([
-      ('Nombre', 'Genesis'),
-      ('Edad', 18),
-      ('Documento', 0968694729),
-])
-print(d2)
-#{'Nombre': 'Maria', 'Edad': '18', 'Documento': '0968694729'}
+thisdict = {
+  "Nombre" :"Genesis",
+  "miembros": 18 ,
+  "Documento": 968694729
+}
+print(thisdict)
 
 ``` 
 # Tomando decisiones

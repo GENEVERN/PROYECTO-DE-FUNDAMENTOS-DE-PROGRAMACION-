@@ -153,10 +153,10 @@ conversión explícita: Podemos hacer conversiones entre tipos o cast de manera 
 
 Las listas en Python permiten almacenar un conjunto arbitrario de datos como enteros, cadenas y hasta otras funciones.
 ``` python
-lista = [1,52,maria,2,13]
+lista = [1,52,2,13]
 print(lista)
 
-Resultado [1,52,maria,2,13]
+Resultado [1,52,2,13]
 ``` 
 ## Tuple
 Las tuplas es un conjunto ordenado en secuencia e inmutable de elementos del mismo o diferente tipo.

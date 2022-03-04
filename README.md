@@ -231,9 +231,12 @@ for var in sequence:
  ```
  La estructura del bucle for es simple. La primera línea identifica el bucle y define un índice, que es un número que cambia en cada paso a través del bucle. Después de la línea de identificación viene el grupo de comandos que se quiere ejecutar de forma IDENTADA.
  ``` python
- grupos = [Exo, Got7, twice, NCT]
-for a in grupos:
-    print(a)
+ numero=int(input("Número:"))
+f=1
+if numero!=0:
+    for i in range(1,numero+1):
+        f=f*i
+print("Factorial:", f)
   ```
 ## Ciclo While
 La sentencia o bucle while en Python es una sentencia de control de flujo que se utiliza para ejecutar un bloque de instrucciones de forma continuada mientras se cumpla una condición determinada.
@@ -252,10 +255,12 @@ Python evalúa la condición:
 -si el resultado es False, el cuerpo del bucle no se ejecuta y continúa la ejecución del resto del programa.
 ```
 ``` python
+numero = 0
+print('Tabla del 5')
 while numero <= 10:
-    suma = numero + suma
-    numero = numero + 1
-print ("La suma es " + str(suma))
+    print(f'{numero *5}')
+    numero += 1
+print('Fin')
 ```
 ## Break
 La instrucción break  proporciona la oportunidad de cerrar un bucle cuando se activa una condición externa. Debemos poner la instrucción break dentro del bloque de código bajo la instrucción de su bucle, generalmente después de una instrucción if condicional.
@@ -263,7 +268,7 @@ La instrucción break  proporciona la oportunidad de cerrar un bucle cuando se a
 number = 0
 
 for number in range(10):
-    if number == 5:
+    if number == 10:
         break    # break here
 
     print('Number is ' + str(number))
